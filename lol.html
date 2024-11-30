@@ -25,15 +25,34 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
     <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        #youare-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            max-height: 100%; /* Prevent overflow */
+        }
+    </style>
 </head>
 
 <body class="adaptive">
     <main class="idiot clicky" id="youare-container">
-        <img src="https://cdn.discordapp.com/attachments/1203378267315241032/1312272080380887100/caption-11-1.gif?ex=674c8cdc&is=674b3b5c&hm=acb55bd1015d54a87f6908232962d6558ce43dc89693c25c2b1a4e97d82c0563" alt="You are an Idiot!" width="806" height="604" />
+        <img src="https://cdn.discordapp.com/attachments/1203378267315241032/1312272080380887100/caption-11-1.gif?ex=674c8cdc&is=674b3b5c&hm=acb55bd1015d54a87f6908232962d6558ce43dc89693c25c2b1a4e97d82c0563" alt="You are an Idiot!" />
     </main>
 
     <audio id="youare-audio" autoplay loop hidden>
-        <source src="https://nkprod-coredatastack-pa7jx42xiwhf-tasksbucket-13qb6gn1l5ooi.s3.us-east-1.amazonaws.com/0f5d412d-9a78-4450-928e-99e2d0303b93/result.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAUENQVYXORYD4N3EU%2F20241130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241130T185343Z&X-Amz-Expires=86400&X-Amz-Signature=15015595ea8767dfbf60ce467a66021223b2696e0158813dd93a28d0def50e69&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22%25D0%25AF%2520%25D0%2592%25D0%259B%25D0%2590%25D0%2594%25D0%2598%25D0%259C%25D0%2598%25D0%2598%25D0%25A0%2520%25D0%259D%25D0%2595%25D0%2593%25D0%25A0%2520%25D0%259F%25D0%2598%25D0%2594.mp3%22&x-id=GetObject" type="audio/mp3">
+        <source src="https://traphouse.cfd/wagner_song.mp3" type="audio/mp3">
     </audio>
 
     <script src="/scripts/math.js" type="application/javascript"></script>
